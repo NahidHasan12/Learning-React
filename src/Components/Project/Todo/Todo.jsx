@@ -4,11 +4,14 @@ import "./Todo.css";
 import { TodoForm } from "./TodoForm";
 import { TodoList } from "./TodoList";
 import { TodoDateTime } from "./TodoDataTime";
+import { getLocalStorageTodoData, setLocalStorageTodoData } from "./TodoLocalStorage"
+
+
 
 
 export const Todo = () => {
 
-    const [task, setTask] = useState([]);
+    const [task, setTask] = useState(() => getLocalStorageTodoData());
 
 
     const handleFormSubmit = (inputValue) => {
@@ -27,6 +30,9 @@ export const Todo = () => {
     setTask((prevTask) => [...prevTask, { id, content, checked }]);
   };
 
+  // Todo Add Data to Local Storage
+  
+  setLocalStorageTodoData(task);
  
 
 
