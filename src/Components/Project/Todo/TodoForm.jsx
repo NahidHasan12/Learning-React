@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 export const TodoForm = ({onAddTodo}) => {
 
     const [inputValue, setInputValue] = useState({});
+   
 
     const handleInputChange = (value) => {
         setInputValue({ id:value, content:value, checked: false })
