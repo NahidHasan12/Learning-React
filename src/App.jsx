@@ -16,7 +16,14 @@ import "./Components/Netflix.module.css"
 // import {Counter} from "./Components/hooks/UseState/index"
 // import {CounterChalange} from "./Components/hooks/UseState/IncrementDecrementChalange"
 // import {Registration} from "./Components/hooks/UseState/Registration"
-import {RegistrationReact} from "./Components/hooks/UseState/RegistrationReact"
+// import {RegistrationReact} from "./Components/hooks/UseState/RegistrationReact"
+// import {LoginForm} from "./Components/hooks/UseState/LoginForm"
+// import {ReactUseEffect} from "./Components/hooks/UseEffect/Index"
+// import {EffectChallange} from "./Components/hooks/UseEffect/EffectChallange"
+// import {CleanUp} from "./Components/hooks/UseEffect/CleanUp"
+// import {HowNotToFetchApi} from "./Components/hooks/UseEffect/HowNotToFeatchApi"
+import {FirstPokemonCard} from "./Components/hooks/UseEffect/FirstPokemonCard"
+import {Pokemon} from "./Components/hooks/UseEffect/Pokemon"
 
 export const App = () => {
   return (  
@@ -35,7 +42,14 @@ export const App = () => {
       <Counter />
       <CounterChalange /> */}
       {/* <Registration /> */}
-      <RegistrationReact />
+      {/* <RegistrationReact /> */}
+      {/* <LoginForm /> */}
+      {/* <ReactUseEffect /> */}
+      {/* <EffectChallange /> */}
+      {/* <CleanUp /> */}
+      {/* <HowNotToFetchApi /> */}
+      <FirstPokemonCard />
+      <Pokemon />
 
 
       {/* <NahidHasan /> */}
