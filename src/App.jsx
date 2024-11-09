@@ -22,7 +22,7 @@ import "./Components/Netflix.module.css"
 // import {EffectChallange} from "./Components/hooks/UseEffect/EffectChallange"
 // import {CleanUp} from "./Components/hooks/UseEffect/CleanUp"
 // import {HowNotToFetchApi} from "./Components/hooks/UseEffect/HowNotToFeatchApi"
-import {FirstPokemonCard} from "./Components/hooks/UseEffect/FirstPokemonCard"
+// import {FirstPokemonCard} from "./Components/hooks/UseEffect/FirstPokemonCard"
 import {Pokemon} from "./Components/hooks/UseEffect/Pokemon"
 
 export const App = () => {
@@ -48,7 +48,7 @@ export const App = () => {
       {/* <EffectChallange /> */}
       {/* <CleanUp /> */}
       {/* <HowNotToFetchApi /> */}
-      <FirstPokemonCard />
+      {/* <FirstPokemonCard /> */}
       <Pokemon />
 
 
