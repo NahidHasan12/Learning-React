@@ -25,7 +25,11 @@ import "./Components/Netflix.module.css"
 // import {FirstPokemonCard} from "./Components/hooks/UseEffect/FirstPokemonCard"
 // import {Pokemon} from "./Components/hooks/UseEffect/Pokemon"
 // import {UseRef} from "./Components/hooks/UseRefs/Index"
-import {ForwardRef} from "./Components/hooks/UseRefs/ForwardRef"
+// import {ForwardRef} from "./Components/hooks/UseRefs/ForwardRef"
+// import {USeId} from "./Components/hooks/USeID/index"
+// import {ParentComponent} from "./Components/propDrilling"
+import {BioProvider} from "./Components/hooks/ContextApi/index"
+import {Home} from "./Components/hooks/ContextApi/home"
 
 export const App = () => {
   return (  
@@ -53,7 +57,13 @@ export const App = () => {
       {/* <FirstPokemonCard /> */}
       {/* <Pokemon /> */}
       {/* <UseRef /> */}
-      <ForwardRef />
+      {/* <ForwardRef /> */}
+      {/* <USeId /> */}
+      {/* <ParentComponent /> */}
+      <BioProvider>
+        <Home />
+      </BioProvider>
+
 
 
       {/* <NahidHasan /> */}
