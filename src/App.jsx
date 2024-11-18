@@ -28,8 +28,11 @@ import "./Components/Netflix.module.css"
 // import {ForwardRef} from "./Components/hooks/UseRefs/ForwardRef"
 // import {USeId} from "./Components/hooks/USeID/index"
 // import {ParentComponent} from "./Components/propDrilling"
-import {BioProvider} from "./Components/hooks/ContextApi/index"
-import {Home} from "./Components/hooks/ContextApi/home"
+// import {BioProvider} from "./Components/hooks/ContextApi/index"
+// import {Home} from "./Components/hooks/ContextApi/home"
+// import {About} from "./Components/hooks/ContextApi/about"
+// import {Service} from "./Components/hooks/ContextApi/service"
+import MixedComponent from "./Components/hooks/ContextApi/darkLight"
 
 export const App = () => {
   return (  
@@ -60,9 +63,13 @@ export const App = () => {
       {/* <ForwardRef /> */}
       {/* <USeId /> */}
       {/* <ParentComponent /> */}
-      <BioProvider>
+      {/* <BioProvider>
         <Home />
-      </BioProvider>
+        <About />
+        <Service />
+      </BioProvider> */}
+
+      <MixedComponent/>
 
 
 
