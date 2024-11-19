@@ -32,7 +32,8 @@ import "./Components/Netflix.module.css"
 // import {Home} from "./Components/hooks/ContextApi/home"
 // import {About} from "./Components/hooks/ContextApi/about"
 // import {Service} from "./Components/hooks/ContextApi/service"
-import MixedComponent from "./Components/hooks/ContextApi/darkLight"
+// import MixedComponent from "./Components/hooks/ContextApi/darkLight"
+import {ReducerComp} from "./Components/hooks/UseReducer/index"
 
 export const App = () => {
   return (  
@@ -69,7 +70,8 @@ export const App = () => {
         <Service />
       </BioProvider> */}
 
-      <MixedComponent/>
+      {/* <MixedComponent/> */}
+      <ReducerComp/>
 
 
 
